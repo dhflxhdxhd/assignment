@@ -1,0 +1,145 @@
+@import url(../reset.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+
+body{
+    min-height : 100vh;
+    width : 100%;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}   
+
+/* nav */
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    height: 70px;
+    align-items: center;
+}
+
+.navbar img{
+    width: 195px;
+    height: 32px;
+}
+
+
+
+.navBtn {
+    height: 30px;
+    width: 90px;
+    border-radius : 4px;
+    border: none;
+    font-size: 12px;
+}
+
+.qnaBtn {
+    background-color: #fff;
+    color: #333D4B;
+}
+
+.startBtn {
+    background-color: #0E7159;
+    color: #fff;
+}
+
+/* banner */
+.title-wrapper{
+    height: 768px;
+    width: 100%;
+}
+
+.banner{
+    height: 768px;
+    width: 100%;
+}
+
+.tBig{
+    text-align: center;
+    font-size:60px;
+    font-weight: 700;
+    line-height : 72px;
+}
+
+.tSmall {
+    display:flex;
+    justify-content:center;
+}
+
+.tSmall span{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    letter-spacing: -0.9 px;
+}
+
+
+.container{
+    display:flex;
+    flex-direction: column; 
+    align-items: center
+}
+
+.mainTitle{
+    font-size:48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    letter-spacing: -1.8px;
+    color: #0E7159;
+    text-align: center
+}
+
+.contents-wrapper{
+    display:flex;
+    justify-content: space-between;
+    width: 975px;
+    flex-flow:wrap;
+}
+
+.contents-gridWrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 48px;
+}
+
+.cMethod{
+    width:293px;
+}
+
+.content{
+    width: 293px;
+}
+
+.content p{
+    width:293px;
+}
+
+.content div>p:first-child{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25.2px;
+    letter-spacing: -0.79px;
+    color: #333D4B;
+}
+
+.content div> p:last-child{
+    color: #6B7684;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    letter-spacing: -0.6px;
+}
+
+.useNow{
+    display:flex;
+    justify-content: center;
+}
+
+.useNow span{
+    font-weight: 700;
+    color: #0E7159;
+    font-size: 18px;
+    line-height: 21.6px;
+    letter-spacing: -0.67px;
+}
+
